@@ -11,7 +11,7 @@ link:
 	ln -sf `pwd`/gitconfig ~/.gitconfig
 	ln -sf `pwd`/ssh/config ~/.ssh/config
 
-USER_HOME = /c/Users/andoni
+USER_HOME = /c/Users/vmartos
 VIM_HOME = $(USER_HOME)/vimfiles
 install-win32:
 	mkdir -p $(VIM_HOME)/plugins
