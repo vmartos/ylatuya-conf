@@ -137,3 +137,6 @@ function! <SID>StripTrailingWhitespaces()
     let @/=_s
     call cursor(l, c)
 endfunction
+
+"set ycm_extra_config path
+let g:ycm_global_ycm_extra_conf = '~/.ycm_extra_conf.py'

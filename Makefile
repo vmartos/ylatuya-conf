@@ -6,6 +6,7 @@ init:
 link:
 	ln -sf `pwd`/vim/* ~/.vim
 	ln -sf `pwd`/vim/vimrc ~/.vimrc
+	ln -sf `pwd`/vim/ycm_extra_conf.py ~/.ycm_extra_conf.py
 	mkdir -p ~/.vim/colors
 	ln -sf `pwd`/vim/bundle/solarized/colors/solarized.vim  ~/.vim/colors/solarized.vim
 	ln -sf `pwd`/gitconfig ~/.gitconfig
